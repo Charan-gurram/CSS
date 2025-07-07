@@ -1,0 +1,35 @@
+/* Combinators selectors */
+/* Descendant */
+#track h2
+{
+    color: red;
+}
+#services  h3
+{
+    color:red;
+}
+#services  p
+{
+    color: blue;
+}
+/* child */
+#contact>form{
+    background-color: antiquewhite;;
+}
+/* Outside */
+/* Adjacent sibling */
+#contact+footer
+{
+    background-color: aqua;
+}
+/* General siblign  */
+#services~#contact
+{
+    color: aquamarine;
+}
+#pa~p{
+    color: aqua;
+}
+#ab~p{
+    color: brown;
+}
