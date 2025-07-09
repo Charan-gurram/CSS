@@ -1,0 +1,80 @@
+.information 
+{
+    margin: 100px 80px;
+    border:2px solid black;
+    border-radius:50px;
+    border-color:blue;
+    height: 200px;
+ 
+}
+.information ul
+{
+    list-style-type: none;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 150px;
+    
+    
+}
+.information ul li
+{
+    display: flex;
+    justify-content: center;
+    height: 40px;
+    width: 40px;
+    border:2px solid black;
+    border-radius: 50%;
+    align-items: center;
+    
+}
+
+/* Psuedo Class Selectors */
+.information ul li:hover
+{
+    background-color: yellow;
+    font-size: x-large;
+
+}
+.information ul li:first-child
+{
+    background-color: red;
+}
+.information ul li:last-child
+{
+    background-color:greenyellow;
+}
+.information ul li:nth-child(4)
+{
+    background-color:skyblue ;
+}
+
+.information ul  :hover:first-child
+{
+    background-color: aqua;
+}
+h2 a{
+    text-align: center;
+    
+}
+h2 a:hover
+{
+    color: greenyellow;
+}
+h2 a:active
+{
+    color: aqua;
+}
+h2 a:visited
+{
+    color:red;
+}
+/* psuedo element selectors */
+p::first-letter
+{
+    font-size: x-large;
+}
+p::first-line
+{
+    color: brown;
+}
