@@ -1,0 +1,60 @@
+.main
+{
+    margin: 10px auto;
+    border: 10px solid greenyellow;
+    border-radius: 10px;
+    height:90%;
+}
+.layout
+{
+    width: 80%;
+    margin: 10px auto;
+    border: 1px solid black;
+    background-color:antiquewhite;
+}
+.layout h2,p
+{
+    text-align: center;
+}
+.menu
+{
+    margin:70px;
+    border: 2px dashed black;
+}
+.menu ul
+{
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+}
+.maincontent1
+{
+    margin:40px;
+    width: 400px;
+    border:2px solid black;
+    padding-left: 20px;
+}
+.maincontent1 p
+{
+       text-align: left;
+}
+
+.maincontent2
+{
+    margin:40px;
+    width:400px;
+    border:2px solid black;
+    padding-left: 20px;
+}
+.maincontent2 p
+{
+    text-align: left;
+}
+.sidebar
+{
+        margin:40px;
+        width:250px;
+        border:2px solid black;
+        padding-left: 20px;
+
+}

@@ -1,0 +1,46 @@
+.cardslist
+{
+    display: flex;
+    justify-content: space-evenly;
+}
+.card
+{
+    margin:10px ;
+    width: 200px;
+    border: 4px solid greenyellow;
+    border-radius: 20px;
+    background-color:whitesmoke;
+    height:400px;
+}
+.card h2{
+    margin-top: 5%;
+    text-align: center;
+    background-color:gold;
+}
+.card h3
+{
+    text-align: center;
+    background-color: rgb(237, 124, 124);
+}
+.card img
+{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-left:12%;
+    margin-top: 1%;
+}
+.card p{
+    text-align: center;
+}
+.card button
+{
+    margin-left: 50px;
+    margin-top:10px;
+    border: 1px solid black;
+}
+.card button:hover
+{
+    color: blue;
+    background-color: yellow;
+}
