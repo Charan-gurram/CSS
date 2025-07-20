@@ -1,0 +1,19 @@
+.container
+{
+    margin:80px auto;
+    width:1000px;
+    height:700px;
+    border: 1px solid black;
+    /* back-ground properties */
+    background-color: bisque;
+     background-image: url("https://i.pinimg.com/736x/cf/35/91/cf3591df9bfec3802311fbf497c6ba84.jpg");
+     /* back-ground img prop override the bg-color */
+     background-size: 300px 300px;                      /*width height */
+     background-repeat: no-repeat; 
+     background-position:bottom left;
+}
+.container p
+{
+    color: blue;
+    text-align: center;
+}
