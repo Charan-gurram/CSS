@@ -9,3 +9,4 @@
 - *[Day-7 Practice](../../tree/Day-7)*: Background-properties
 - *[Day-8 Practice](../../tree/Day-8)*:  Flex
 - *[Day-9 Practice](../../tree/Day-9)*:  Flex Box assignment task
+- *[Day-10 Practice](../../tree/Day-10)*: Tranformation & Transitions
