@@ -1,0 +1,64 @@
+.container
+{
+    width: 80% auto;
+    border: 1px solid black;
+    margin:70px;
+}
+.container p
+{
+        text-align: center;
+}
+.container img
+{
+    width: 200px;
+    border-radius: 50%;
+    margin-left:40%;
+}
+.container img:hover
+{
+     /* rotates in required degrees || scale is used to enlarge sthe element ||translate is used to move the  element from its curret postiton  */
+    transform: rotate(90deg) scale(1.3) translate(20px,40px);
+    cursor: pointer;
+}
+.content
+{
+    width: 200px;
+    border:5px dashed aqua;
+}
+.content p
+{
+  transform: skew(40deg);    /*default-x axis if needed y-axis content or element will be tilted*/
+            /* transform: matrix(a, b, c, d, e, f);
+
+            Value	Represents	Equivalent Transform
+            a	Horizontal scaling	scaleX()
+            b	Vertical skewing	skewY()
+            c	Horizontal skewing	skewX()
+            d	Vertical scaling	scaleY()
+            e	Horizontal translation (in px)	translateX()
+            f	Vertical translation (in px)	translateY() */
+
+}
+.transprops
+{
+    margin-top: 30px;
+    width: 100px;
+    height: 100px;
+    background-color: tomato;
+     /* transition: property duration timing-function delay; 
+    | Part              | Description                            | Example                                       |
+    | ----------------- | -------------------------------------- | --------------------------------------------- |
+    | `property`        | The CSS property to animate            | `width`, `all`                                |
+    | `duration`        | Time it takes to complete (with units) | `0.5s`, `200ms`                               |
+    | `timing-function` | Speed curve of the animation           | `ease`, `linear`, `ease-in`, `cubic-bezier()` |
+    | `delay`           | Time before animation starts           | `0s`, `1s`                                    | */
+
+     transition:width 1s ease-in 2s , background-color 0.3s ease-in-out 2s;
+}
+.transprops:hover
+{
+    width: 200px;
+    background-color: yellow;
+}
+
+
